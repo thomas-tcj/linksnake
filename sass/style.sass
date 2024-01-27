@@ -1,0 +1,35 @@
+@import "../node_modules/bootstrap/scss/bootstrap"
+
+$color1: #141E30
+$color2: #25324B
+$color3: #40444C
+$color4: #FFFFFF
+$color5: #FFFFFF
+
+html, body
+    margin: 0
+    height: 100%
+
+body
+    @extend .d-flex
+    @extend .flex-column
+    @extend .min-vh-100
+    background-color: $color1
+    color: $color5
+
+main
+    @extend .container
+
+h2
+    @extend .position-absolute
+    color: $color4
+    top: -0.75em
+
+h6
+    @extend .text-uppercase
+    @extend .fw-bold
+    @extend .mb-4
+
+p
+    @extend .m-0
+    font-size: small
